@@ -1,0 +1,149 @@
+
+.cabecalho{
+    background-color: #7777a7;
+    color: rgb(255, 255, 255);
+    padding-left: 1%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.resumo{
+    text-align: center;
+    overflow-wrap: break-word; 
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.enunciado{
+    padding-left: 15px;
+    padding-top: 10px;
+    color: #252529;
+}
+
+.dataSet{
+    text-align: center;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px solid #ccc;
+  
+}
+#dropdownDataset{
+    margin: auto;
+    border-collapse: collapse;
+    width: 200px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#dataset{
+    margin: auto;
+    border-collapse: collapse;
+    padding-top: 30px;
+}
+
+#dataset th {
+    background-color: #7777a7;
+    color: rgb(255, 255, 255);
+}
+
+#dataset td {
+    color: rgb(54, 54, 54);
+    text-align: center;
+}
+
+#dataset th, td {
+    padding: 8px; /* Espaçamento interno das células */
+    border: 1px solid #ddd; /* Adiciona bordas e define a cor para cinza claro */
+    text-align: center;
+}
+
+.botoes {
+    white-space: nowrap; 
+    padding: 15px;
+}
+
+.botoes > * {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+#anos{
+    width: 200px;
+}
+
+#generos{
+    width: 200px;
+}
+
+#graficoPizza {
+    width: 70%;
+    margin: auto;
+}
+
+.analise {
+    background-color: #e9e7e7;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px
+
+}
+
+.analise H3 {
+    color: #0e0d0e;
+}
+
+.paragrafos {
+    padding-left:20px;
+    color: #3d3c3c;
+    margin-bottom: 8px;
+
+
+}
+
+
+.paragrafos > * {
+    display: inline-block;
+    width: 45%; 
+    margin-right: 5%;
+    overflow-wrap: break-word; 
+}
+
+.vendas {
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.tabela {
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.tabela th {
+    background-color: #7777a7;
+    color: rgb(255, 255, 255);
+}
+
+.tabela td {
+    color: rgb(54, 54, 54);
+}
+
+.tabela th, td {
+    padding: 8px; /* Espaçamento interno das células */
+    border: 1px solid #ddd; /* Adiciona bordas e define a cor para cinza claro */
+    text-align: center;
+}
+
+#vendasT{
+    width: 70%;
+    margin: auto;
+}
