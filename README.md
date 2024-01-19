@@ -1,5 +1,5 @@
 ## Projeto desenvolvido para a disciplina de Análise de Dados
-O método utilizado para a coleta dos dados para esta análise foi o de Web Scraping, a ferramenta utilizada foi a biblioteca **BeautifulSoup**.
+O método utilizado para a coleta dos dados para esta análise foi o de *Web Scraping*, a ferramenta utilizada foi a biblioteca **BeautifulSoup**.
 As ferramentas utilizadas para a criação do dataset e dashboard, assim como também os gráficos e as tabelas, foram as bibliotecas **dash**, **plotly** e **pandas**.
 
 **Observações:**
