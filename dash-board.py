@@ -228,7 +228,7 @@ app.layout = html.Div([
     [Input('anos', 'value'),
      Input('generos', 'value')]
 )
-def update_pie_chart(selecionarAno, selecionarGenero):
+def pizza(selecionarAno, selecionarGenero):
     filtroAno = top10
     if selecionarGenero != 'All':
         filtroAno = filtroAno[filtroAno['Genero'] == selecionarGenero]
@@ -264,7 +264,7 @@ def update_pie_chart(selecionarAno, selecionarGenero):
     Output('dataset', 'style'),
     [Input('dropdownDataset', 'value')]
 )
-def update_tabela_visibility(visibilidade):
+def visualizador(visibilidade):
     if visibilidade == 'mostrar':
         return {'display': 'block'}
     else:
